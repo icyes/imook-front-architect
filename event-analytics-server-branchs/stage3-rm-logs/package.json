@@ -1,0 +1,30 @@
+{
+  "name": "event-analytics-server",
+  "version": "1.0.0",
+  "description": "event-analytics-server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imooc-lego-course/event-analytics-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imooc-lego-course/event-analytics-server/issues"
+  },
+  "homepage": "https://github.com/imooc-lego-course/event-analytics-server#readme",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "date-fns": "^2.17.0",
+    "fs-extra": "^9.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.7"
+  }
+}

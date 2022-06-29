@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- node
+deploy:
+  provider: npm
+  email: vikingmute@gmail.com
+  skip_cleanup: true
+  api_key:
+    secure: VrYEXlKywrSuhAk/zA36UXMFDj3Dn7I0UKathAtWUirYj9QdT8hEoJDYEcQCX+8/EGJjVXVcdEfNUDbSfb5ibxsXfYzv+VNxX1KECuM8xuwMUmbFW7JWhmjtxm/XktljY7h7G8KabZQGJSFvaSw4cAHctlFcLWcATMhkGuDUskVdHOu82nx5B7c3N9fnE/pD1WJXsixvutrorZOOily8jmD8IMy5lunarGfn30F/yyTYSxiO4dEDcQeZ98hx3n+Zugl+Zktqg0p3bNL3TGx7epCOSsHxN3XxlHKxZBW2OL0XcLXyIFQYI+rsWHp1YC6kdeYTzvYY7SkLexLx9hMKKShmFBOos8bOnHlSQD8/E9uehOCMshzv6lEQEA/zeYojeXMcESshuAdga0OG3+rOhmlAAPDR0hYfnP6olhWrdJ6hEX21IIqhTDeZb7+UvkP4Vd3tDfz03ylf1jtJcoQNhTlYDlAJVQt3DczqpvQ2YIaknqdJe3fxeKyfp3aM8GYBHuzgLZn12mOOEUaratQAaxNR460WTEjzvWm5gINi2N0gl+UvQal9JeH+DwBskiaaMYUL04y2KInNIJRfdemGJ6LMjHqimhUW2gTBuuaKtKkg19FB2+JqoF/kqljE9Z4ZNnMWCGvbKTCRQrtFItwICQPyD18wNqHqpiIw7j8/szs=
+  on:
+    tags: true
+

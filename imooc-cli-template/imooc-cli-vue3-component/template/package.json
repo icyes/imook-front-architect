@@ -1,0 +1,31 @@
+{
+  "name": "<%= className %>",
+  "version": "<%= version %>",
+  "description": "<%= description %>",
+  "main": "dist/imooc.<%= className %>.js",
+  "scripts": {
+    "dev": "rollup -wc rollup.config.dev.js",
+    "build": "eslint ./src && rollup -c rollup.config.dev.js",
+    "build:prod": "eslint ./src && rollup -c rollup.config.prod.js",
+    "lint": "eslint ./src"
+  },
+  "author": "sam <247765564@qq.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/preset-env": "^7.10.2",
+    "@vue/compiler-sfc": "^3.0.0-beta.15",
+    "eslint": "^7.2.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "rollup": "^2.16.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^3.1.2",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-vue": "^6.0.0-beta.10",
+    "sass": "^1.26.8"
+  }
+}

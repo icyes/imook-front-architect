@@ -1,0 +1,40 @@
+{
+  "name": "imooc-test",
+  "version": "1.0.2",
+  "description": "",
+  "bin": {
+    "imooc-test": "bin/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-escapes": "^4.3.1",
+    "cli-spinner": "^0.2.10",
+    "commander": "^6.2.1",
+    "dedent": "^0.7.0",
+    "imooc-test-lib": "^1.1.0",
+    "inquirer": "^7.3.3",
+    "mute-stream": "^0.0.8",
+    "npminstall": "^4.10.0",
+    "path-exists": "^4.0.0",
+    "rxjs": "^6.6.3",
+    "semver": "^7.3.4",
+    "user-home": "^2.0.0",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/runtime-corejs3": "^7.12.5",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.10.3",
+    "webpack-cli": "^4.2.0"
+  }
+}

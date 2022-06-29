@@ -1,0 +1,32 @@
+{
+  "name": "@imooc-cli-dev/log",
+  "version": "1.0.4",
+  "description": "imooc-cli-dev log",
+  "keywords": [
+    "log"
+  ],
+  "author": "sam <247765564@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:sam9831/imooc-cli-dev.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "npmlog": "^4.1.2"
+  }
+}

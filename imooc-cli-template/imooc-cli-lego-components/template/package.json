@@ -1,0 +1,62 @@
+{
+  "name": "<%= className %>",
+  "version": "<%= version %>",
+  "private": false,
+  "main": "dist/<%= className %>.umd.js",
+  "module": "dist/<%= className %>.esm.js",
+  "description": "<%= description %>",
+  "author": "Viking Zhang",
+  "license": "MIT",
+  "keywords": [
+    "Component",
+    "UI",
+    "Vue"
+  ],
+  "files": [
+    "examples",
+    "src",
+    "build",
+    "dist",
+    ".browserslistrc",
+    ".eslintrc.js",
+    ".gitignore",
+    "babel.config.js",
+    "README.md",
+    "result.png",
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "dev": "npm run dev:umd",
+    "dev:es": "rollup -w --config build/rollup.esm.config.js",
+    "dev:umd": "rollup -w --config build/rollup.umd.config.js",
+    "build": "npm run build:es && npm run build:umd",
+    "lint": "vue-cli-service lint",
+    "build:es": "rollup --config build/rollup.esm.config.js",
+    "build:umd": "rollup --config build/rollup.umd.config.js"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.15"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0-0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-typescript": "^6.0.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0-0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "rollup": "^2.28.2",
+    "rollup-plugin-css-only": "^2.1.0",
+    "rollup-plugin-exclude-dependencies-from-bundle": "^1.1.13",
+    "rollup-plugin-vue": "^6.0.0-beta.10",
+    "vue": "^3.0.0-0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@imooc-cli/imooc-standard-template",
+  "version": "1.0.1",
+  "description": "imooc standard template",
+  "main": "index.js",
+  "keywords": [],
+  "author": "sam <247765564@qq.com>",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "fs-extra": "^9.0.1",
+    "glob": "^7.1.6",
+    "inquirer": "^7.3.3",
+    "lodash": "^4.17.20"
+  }
+}
